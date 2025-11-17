@@ -134,7 +134,7 @@ auto_aim_controller:
   ros__parameters:
     # capture
     use_video: false # If true, use video stream instead of camera.
-    video_path: "/workspaces/RMCS/rmcs_ws/resources/1.avi"
+    video_path: "/workspaces/RMCS-Flight-Simulation/rmcs_ws/resources/1.avi"
     exposure_time: 3
     invert_image: false
     # identifier

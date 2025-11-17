@@ -16,3 +16,6 @@
 [submodule "rmcs_ws/src/livox_ros_driver2"]
 	path = rmcs_ws/src/livox_ros_driver2
 	url = https://github.com/Alliance-Algorithm/livox_ros_driver2.git
+[submodule "px4-autopilot"]
+	path = px4-autopilot
+	url = https://github.com/PX4/PX4-Autopilot.git
