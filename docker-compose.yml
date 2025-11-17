@@ -13,7 +13,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:bind
       - /run/user/1000/wayland-0:/run/user/1000/wayland-0
       - ${HOST_NVIM_DIR}:${CONTAINER_HOME}/.config/nvim/:bind
-      - .:/workspaces/RMCS:bind
+      - .:/workspaces/RMCS-Flight-Simulation:bind
     environment:
       - DISPLAY=${DISPLAY}
       - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}

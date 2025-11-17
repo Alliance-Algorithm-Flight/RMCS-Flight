@@ -81,6 +81,8 @@ RUN cd /tmp && \
 # Developing container, works with devcontainer
 FROM rmcs-base AS rmcs-develop
 
+RUN bash px4-autopilot/Tools/setup/ubuntu.sh
+
 # Install develop tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libc6-dev gcc-14 g++-14 \

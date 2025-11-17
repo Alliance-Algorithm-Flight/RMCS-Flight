@@ -4,6 +4,8 @@
 	"name": "rmcs-develop",
 	"image": "qzhhhi/rmcs-develop:latest",
 	"privileged": true,
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"workspaceFolder": "/workspace/RMCS-Flight-Simulation",
 	"mounts": [
 		{
 			"source": "/dev",
